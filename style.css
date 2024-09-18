@@ -53,6 +53,35 @@ li a{
     position: absolute;
     padding-top: 10px;
     padding-left: 5.5em;
-  
+}
+.phone1{
+    position: absolute;
+    top: 395px;
+    left: 1090px;
+    font-size: 70px;
+    padding-top: 15px;
+}
+.phone2{
+    position: absolute;
+    top: 360px;
+    left: 1100px;
  
+}
+.ph3{
+    position: absolute;
+    top: 360px;
+    left: 1100px;
+    padding-left: 150px;
+    padding-bottom: 30px;
+}
+.para1{
+    position: absolute;
+    bottom: 120px;
+    left: 1100px; 
+}
+.para2{
+    position: absolute;
+    bottom: 40px;
+    left: 1100px; 
+    font-size:small;
 }
