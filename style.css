@@ -4,14 +4,25 @@
     font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
 }
+header{
+    position: fixed;
+    width: 100%;;
+ background-color: #fff;
+}
+footer{
+    width: 100%;
+    position:fixed;
+    height: 10em;
+    background-color: #fff;
+}
  li{
     display:inline;
     list-style: none;
     gap: 15px;
 }
 h2{
-    padding-top: 15px;
-    margin-left: 10em;
+    padding-top: 10px;
+    margin-left: 6em;
     display: inline-block;
 }
 nav{
@@ -27,19 +38,19 @@ li a{
    font-weight: bold;
 }
 .first{
-    padding-left : 10em;
+    padding-left : 16em;
 }
 .last{
     padding-right: 7em;
 }
 .img1{
     width: 70%;
-    height: 40em;
+    height: 50em;
 }
 .mini1{
    position: absolute;
   right: 28em;
- top:22em;
+ top:24.7em;
  width: 217.6px;
  height: 326px;
 }
