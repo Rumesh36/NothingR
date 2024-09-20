@@ -5,15 +5,9 @@
     box-sizing: border-box;
 }
 header{
-    position: fixed;
-    width: 100%;;
- background-color: #fff;
-}
-footer{
     width: 100%;
-    position:fixed;
-    height: 10em;
-    background-color: #fff;
+    height: 3.5em;
+ background-color: #fff;
 }
  li{
     display:inline;
@@ -50,14 +44,14 @@ li a{
 .mini1{
    position: absolute;
   right: 28em;
- top:24.7em;
+ top:30.5em;
  width: 217.6px;
  height: 326px;
 }
 .image1{
-    background-color: rgb(246, 249, 250);
+    background-color: rgb(222, 222, 222);
     width: 100%;
-    height: 640px;
+    height: 50em;
 }
 #user{
     font-size: 40px;
@@ -67,32 +61,55 @@ li a{
 }
 .phone1{
     position: absolute;
-    top: 395px;
+bottom: 1.7em;
     left: 1090px;
     font-size: 70px;
     padding-top: 15px;
 }
 .phone2{
     position: absolute;
-    top: 360px;
+   bottom: 13em;
     left: 1100px;
- 
 }
 .ph3{
     position: absolute;
-    top: 360px;
+    bottom: 11em;
     left: 1100px;
     padding-left: 150px;
     padding-bottom: 30px;
 }
 .para1{
     position: absolute;
-    bottom: 120px;
+    bottom: 1.5em;
     left: 1100px; 
 }
 .para2{
     position: absolute;
-    bottom: 40px;
+    bottom: -2em;
     left: 1100px; 
     font-size:small;
+}
+.fixed{
+    background-color: #fff;
+    display: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 3em;   
+    margin-bottom: 10px;
+}
+.btn1{
+    display: flex;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 2.4em;
+    border-radius: 20px;
+    background-color: rgb(50, 50, 122);
+    color: white;
+    margin-top: 0.6em;
+    margin-left: 58em;
+    text-align: center;
+}
+button{
+    padding: 13px;
 }
