@@ -172,3 +172,83 @@ button{
     line-height: 1.4em;
     padding-bottom: 6em;
 }
+@media screen and (max-width:400px) {
+    header{
+        width: 100%;
+        height: 4rem;
+     background-color:#ffffff;
+     border:#ffffff solid;
+    }
+    h2{
+        position: absolute;
+        font-size: 1.3rem;
+        padding-top: 1em;
+       left: -5.3em;
+    }
+    #user{
+        position: absolute;
+        right: 1.2em;
+       top:0.1rem;
+       padding-right: 1.1rem;
+    }
+    li a{
+        display: flex;
+       padding-top: 4rem;
+       opacity: 0;
+       
+    }
+    .first{
+        position:absolute;
+       left: 0px;
+    }
+    .nav1{
+      
+        position: absolute;
+       left: 3px;    
+    }
+   
+    #navbar{
+        position: absolute;
+        right: 0.8em;
+        top: 1.4em;
+    }
+    .image1{
+        width: 100vh;
+       height: 85vh;
+    }
+    .img1{
+        position: absolute;
+        width: 100vw;
+        height: 65vh;
+    }
+    .left{
+        position: absolute;
+        font-size: 3rem;
+        top: -2.8em;
+        left: -7em;
+
+    }
+    .fixed{
+        background-color:#bbb9b9;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        height: 3.55em;   
+        border: rgb(8, 7, 7) ;
+    }
+    .btn1{
+        position: fixed;
+        width: 23%;
+        height:2.5em;
+        display: flex;
+        font-size: 20px;
+        padding-left: 80px;
+        padding-right: 80px;
+        border-radius:120px;
+        border: rgb(50, 50, 122);
+        margin-top: 0.3em;
+        margin-bottom: 0.2em;
+        margin-left: 58em;
+       
+    }
+}
