@@ -251,4 +251,60 @@ button{
         margin-left: 58em;
        
     }
+    .phone2{
+     position: absolute;
+     left: 1rem;
+     bottom: 6.9rem;
+     font-size: 1rem;
+    }
+    .phone1{
+    position: absolute;
+    left: 1rem;
+    bottom: 3.2rem;
+    font-size: 2em;
+
+    }
+    .ph3{
+        position: absolute;
+        left:-0.4rem;
+        bottom: 5rem;
+    }
+    .para1{
+        position: absolute;
+        font-size: 0.9em;
+        left: 1.1rem;
+        bottom: -3.5rem;
+    }
+    .para2{
+        position: absolute;
+       left: 1.1rem;
+       bottom: -5.6rem;
+    }
+    #wal{
+        position: absolute;
+        left: 1.1rem;
+        font-size: 1.1rem;
+        padding-top: 4em;
+    }
+    #p1{
+        position: absolute;
+        left: -1.8rem;
+        font-size: 1.1rem;
+        padding-top: 2.8em;
+
+    }
+    #t3{
+        position: absolute;
+        left: 1.1rem;
+        font-size: 1.1rem;
+        bottom: -24em; 
+        padding-bottom: 3.5em;
+    }
+    #p2{
+        position: absolute;
+        left: -17.5em;
+        font-size: 1.1rem;
+        bottom: -25.5em;
+        padding-top: 4em;
+    }
 }
