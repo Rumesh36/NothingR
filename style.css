@@ -174,8 +174,8 @@ button{
 }
 @media screen and (max-width:400px) {
     header{
-        width: 100%;
-        height: 4rem;
+        width: 100vw;
+        height:9vh;
      background-color:#ffffff;
      border:#ffffff solid;
     }
@@ -184,6 +184,10 @@ button{
         font-size: 1.3rem;
         padding-top: 1em;
        left: -5.3em;
+    }
+    .fixed{
+        width: 100vw;
+        height: 8vh;
     }
     #user{
         position: absolute;
@@ -213,8 +217,8 @@ button{
         top: 1.4em;
     }
     .image1{
-        width: 100vh;
-       height: 85vh;
+        width: 100vw;
+       height:auto;
     }
     .img1{
         position: absolute;
@@ -227,29 +231,6 @@ button{
         top: -2.8em;
         left: -7em;
 
-    }
-    .fixed{
-        background-color:#bbb9b9;
-        position: fixed;
-        bottom: 0px;
-        width: 100%;
-        height: 3.55em;   
-        border: rgb(8, 7, 7) ;
-    }
-    .btn1{
-        position: fixed;
-        width: 23%;
-        height:2.5em;
-        display: flex;
-        font-size: 20px;
-        padding-left: 80px;
-        padding-right: 80px;
-        border-radius:120px;
-        border: rgb(50, 50, 122);
-        margin-top: 0.3em;
-        margin-bottom: 0.2em;
-        margin-left: 58em;
-       
     }
     .phone2{
      position: absolute;
@@ -284,21 +265,21 @@ button{
         position: absolute;
         left: 1.1rem;
         font-size: 1.1rem;
-        padding-top: 4em;
+        padding-top: 6.2em;
     }
     #p1{
         position: absolute;
         left: -1.8rem;
         font-size: 1.1rem;
-        padding-top: 2.8em;
+        padding-top: 6.8em;
 
     }
     #t3{
         position: absolute;
         left: 1.1rem;
         font-size: 1.1rem;
-        bottom: -24em; 
-        padding-bottom: 3.5em;
+       top: -24em; 
+        padding-top: 4.8em;
     }
     #p2{
         position: absolute;
@@ -306,5 +287,13 @@ button{
         font-size: 1.1rem;
         bottom: -25.5em;
         padding-top: 4em;
+    }
+    .t4{
+        position: absolute;
+        
+    }
+    #p3{
+        position:absolute;
+        right: 0px;
     }
 }
